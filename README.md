@@ -1,34 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was just following a tutorial to explore the real-time update capabilities of firebase. Originally, I had shied away from Firebase as a database, and wanted to build my own backend to have full control. Additionally, I bought into the GraphQL API hype and fully embraced it, which Firebase did not have. 
+After this project, I fell in love with the convenience of Firebase’s backend as a service model and have been using it since. I wouldn’t use it for a large-scale project but for my current skill-level, it is perfect for me to keep pumping out projects.
 
-## Getting Started
+This chat is currently functional. If you have two different google accounts, you can use one in private/incognito mode, log into two different accounts and send chats across. You would however have to fully type in the Gmail properly. This project is currently deployed at the following web address:
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://next-firebase-chat-app.alfredpitchfork.vercel.app/
